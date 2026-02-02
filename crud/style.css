@@ -1,0 +1,60 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f8;
+    padding: 30px;
+}
+
+h1{ text-align: center; }
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-simpan{ background: #28a745; color: white; }
+.btn-batal{ background: #6c757d; color: white; }
+.btn-edit{ background: #20b920; }
+.btn-hapus{ background: #dc3545; color: white; }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background: #16426d;
+    color: white;
+}
+
+.search{ margin-bottom: 10px; }
+
+.notif{
+    text-align: center;
+    color: rgb(79, 148, 194);
+    font-weight: bold;
+    margin-top: 10px;
+}

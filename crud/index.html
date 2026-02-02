@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD Data Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>CRUD Data Siswa</h1>
+
+<div class="card">
+    <input type="text" id="nama" placeholder="Masukkan nama siswa">
+    <input type="text" id="kelas" placeholder="Masukkan kelas">
+
+    <button class="btn-simpan" onclick="simpanData()">Simpan</button>
+    <button class="btn-batal" onclick="batalEdit()">Batal</button>
+
+    <div class="notif" id="notif"></div>
+</div>
+
+<div class="card">
+    <input class="search" type="text" id="cari" placeholder="Cari nama siswa..." onkeyup="cariData()">
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody id="tabelData"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
